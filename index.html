@@ -1,10 +1,74 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Automotrizñ</title>
+    <title>Website Automotriz Moderno</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-container">
+                <h2 class="company-name">KIA<span>PRO</span></h2>
+                <img src="./assets/logo.jpeg" alt="Logo automotriz" class="logo">
+            </div>
+            <nav class="nav-menu">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Flota</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <div class="header-buttons">
+                <button class="btn btn-outline">Ventas</button>
+                <button class="btn btn-primary">Comienza ahora</button>
+            </div>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
     
+    <main>
+        <section class="hero">
+            <div class="hero-image-container">
+                <img src="./assets/hero.jpg" alt="Vehículo de lujo" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">REVOLUCIONA TU EXPERIENCIA AUTOMOTRIZ</h1>
+                <p class="hero-text">Descubre el futuro de la movilidad con nuestra flota premium y servicios personalizados. Tecnología de punta, diseño innovador y un compromiso inquebrantable con la excelencia.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large">Comienza ahora</button>
+                    <button class="btn btn-outline btn-large">Ver video <span class="play-icon">▶</span></button>
+                </div>
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-number">15K+</span>
+                        <span class="stat-label">Clientes satisfechos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Vehículos disponibles</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Soporte personalizado</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="featured">
+        <div class="featured-content">
+            <h2 class="featured-title">EXPERIENCIA KIA: INNOVACIÓN Y CONFORT</h2>
+            <p class="featured-text">Descubre la combinación perfecta entre tecnología avanzada y diseño ergonómico. Cada vehículo KIA está diseñado para ofrecerte un rendimiento excepcional y una experiencia de conducción inigualable.</p>
+        </div>
+        <div class="featured-image-container">
+            <img src="./assets/car.jpg" alt="Vehículo KIA moderno" class="featured-image">
+        </div>
+    </section>
 </body>
 </html>
