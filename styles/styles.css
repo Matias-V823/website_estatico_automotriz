@@ -292,6 +292,96 @@ body {
 }
 
 
+
+
+.clients {
+    padding: 5rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.clients__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.clients__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    margin-bottom: 3rem;
+}
+
+.clients__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.client__card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.client__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.client__image-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1.5rem;
+    border: 5px solid #eaeaea;
+}
+
+.client__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.client__name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.client__company {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #e74c3c;
+    margin-bottom: 1.5rem;
+}
+
+.client__testimonial {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+
+
 @media (max-width: 1024px) {
     .hero {
         grid-template-columns: 1fr;
@@ -364,6 +454,21 @@ body {
     .featured-title {
         font-size: 1.8rem;
     }
+    .clients__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .client__card {
+        max-width: 100%;
+    }
+    
+    .clients__title {
+        font-size: 2rem;
+    }
+
 }
+
+
 
 
